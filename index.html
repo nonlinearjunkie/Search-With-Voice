@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reduct BootCamp </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="display_4 text-center">
+            Reduct <span class="text-success">BootCamp</span> Atendees
+        </h1>
+
+        <input type="submit" value="Search By Name through Voice" class="btn btn-info search-button">
+
+        <br>
+        <br>
+        <br>
+
+        <form id="attendees-form">
+            <div class="form-group">
+                <label for="name">Name Of Attendee:</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="interest">Fields Of Interest</label>
+                <input type="text" id="interest" class="form-control">
+            </div>
+            <input type="submit" value="Add Details" class="btn btn-block btn-success">
+        </form>
+
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Name of Attendee</th>
+                    <th>Address</th>
+                    <th>Fields Of Interest</th>
+                </tr>
+            </thead>
+            <tbody id="attendees-list">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>

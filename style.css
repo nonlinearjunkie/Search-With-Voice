@@ -1,0 +1,25 @@
+.clearButton {
+    background-color: red;
+}
+
+.alert-message {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.search-button {
+    width: 20%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+label,
+th {
+    font-size: 20px;
+}
+
+.form-group {
+    margin: 20px;
+}
